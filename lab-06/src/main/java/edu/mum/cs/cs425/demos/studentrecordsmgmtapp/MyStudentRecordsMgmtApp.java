@@ -1,17 +1,18 @@
 package edu.mum.cs.cs425.demos.studentrecordsmgmtapp;
 
-import java.lang.reflect.Array;
+import edu.mum.cs.cs425.demos.studentrecordsmgmtapp.Model.Student;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class MyStudentRecordsMgmtApp {
-    public void main(String[] args) {
+    // static must be added
+    public   void main(String[] args) {
 
         DateTimeFormatter changethestring = DateTimeFormatter.ofPattern("MM/dd/yyy");
 
@@ -59,7 +60,10 @@ public class MyStudentRecordsMgmtApp {
 
         System.out.println(students);
     }
-
+    // using reference method =>::
+// Arrays.stream(students)
+    //.sorted(comparator.comparing(Student::getName))
+   // .forEach(System.out::println);
 
     public List<Student> getListOfPlatinumAlumniStudents(Student[] students) {
         List<Student> stulist = Arrays.asList(students);
@@ -69,6 +73,10 @@ public class MyStudentRecordsMgmtApp {
 
             }
         }
+        // return Arrays.stream(students)
+        //.fliter(Student::isPlatinumAlumniStudent)
+        //.sorted(Comparator.comparing(Student::getDateOfAdminssion).reversed())
+        //.collect(Collectors.toList());
         return stulist.stream().sorted((o1, o2) -> o1.getDateOfAdmission().
                 compareTo(o2.getDateOfAdmission())).collect(Collectors.toList());
 
@@ -108,6 +116,13 @@ public class MyStudentRecordsMgmtApp {
     }
 
 
+    // TO Do ----JSON format
+    private void printStudentsDataInJSONFormat(Student[]students){
+        //do something
+    }
+    private void printStudentsDataInXMLFormat(Student[]students) {
+        //do something
+    }
 
     }
 

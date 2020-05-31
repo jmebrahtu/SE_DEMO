@@ -1,4 +1,4 @@
-package edu.mum.cs.cs425.demos.studentrecordsmgmtapp;
+package edu.mum.cs.cs425.demos.studentrecordsmgmtapp.Model;
 
 
 
@@ -6,25 +6,27 @@ import java.time.LocalDate;
 
 
 public class Student implements Comparable {
+    // attribute
     private int studentId;
     private String name;
    private LocalDate dateOfAdmission;
-
+// default constructor
     public Student() {
 
     }
+    // parameter constructor
     public Student(int studentId, String name) {
         this.studentId = studentId;
         this.name = name;
     }
-
+// parameter constructor
     public Student(int studentId, String name, LocalDate dateOfAdmission) {
         this.studentId = studentId;
         this.name = name;
         this.dateOfAdmission = dateOfAdmission;
     }
 
-
+// getter method
     public int getStudentId() {
         return studentId;
     }
