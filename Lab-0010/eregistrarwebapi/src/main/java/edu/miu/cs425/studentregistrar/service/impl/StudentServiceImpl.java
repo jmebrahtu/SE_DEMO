@@ -72,4 +72,9 @@ public class StudentServiceImpl implements StudentService {
         studentRepository.deleteById(studentId);
 
     }
+
+    @Override
+    public List<Student> searchStudent(String firstName) {
+        return studentRepository.findAllByFirstName(firstName);
+    }
 }

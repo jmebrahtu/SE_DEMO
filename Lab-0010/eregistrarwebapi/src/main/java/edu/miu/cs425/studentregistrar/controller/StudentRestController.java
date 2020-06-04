@@ -45,4 +45,9 @@ public class StudentRestController {
     public void deleteStudent(@PathVariable long studentId) {
         studentService.deleteStudentById(studentId);
     }
+
+    @GetMapping(value = "/search/{firstName}")
+    public List<Student> getStudentByFirstName(@PathVariable String firstName) {
+        return studentService.searchStudent(firstName);
+    }
 }
