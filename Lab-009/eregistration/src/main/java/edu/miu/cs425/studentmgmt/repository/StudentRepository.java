@@ -3,6 +3,7 @@ package edu.miu.cs425.studentmgmt.repository;
 import edu.miu.cs425.studentmgmt.model.Student;
 
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
@@ -12,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Repository
-public interface StudentRepository extends CrudRepository<Student,Long> {
+public interface StudentRepository extends JpaRepository<Student,Long> {
     @Query("select s from Student s where s.studentId = :studentId")
 //    Student findByStudnetNAndStudentNumber(@Param("studentNumber")String studentNumber);
    Student findByStudentId(@Param("studentId") long studentId);

@@ -4,6 +4,9 @@ import edu.miu.cs425.studentmgmt.model.Student;
 import edu.miu.cs425.studentmgmt.repository.StudentRepository;
 import edu.miu.cs425.studentmgmt.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.text.ParseException;
@@ -50,6 +53,12 @@ public class StudentServiceImpl implements StudentService {
 
     }
 
+    @Override
+    public Page<Student> getAllStudentPaged( int pageNo ,int size) {
+       // return  studentRepository.findAll(PageRequest.of(pageNo);
+        return studentRepository.findAll(PageRequest.of(pageNo, size, Sort.by("firstName")));
+    }
+
     // Search method(searching based a given attribute(value)
     @Override
     public List<Student> searchStudent(String searchString) {
@@ -75,6 +84,8 @@ public class StudentServiceImpl implements StudentService {
             }
         }
         return isParseableAsCGPA;
+
+
     }
 
 
