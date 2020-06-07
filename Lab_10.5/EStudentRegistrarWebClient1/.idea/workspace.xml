@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d05cebb-3643-422d-a3d9-7922983e01e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentregistrar/src/main/java/edu/miu/cs425/studentregistrar/EregistrarWebApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentregistrar/src/main/java/edu/miu/cs425/studentregistrar/model/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/controller/StudentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/controller/StudentRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/student/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/student/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cu8WWLPbpEdcXsyXgRC5AY3zoe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EStudentRegistrarWebClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mystudentmgmtapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.miu.cs425.studentmgmt.EStudentRegistrarWebClient" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d05cebb-3643-422d-a3d9-7922983e01e2" name="Default Changelist" comment="" />
+      <created>1591367149479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591367149479</updated>
+      <workItem from="1591367153923" duration="9005000" />
+      <workItem from="1591411600517" duration="673000" />
+      <workItem from="1591422022867" duration="1560000" />
+      <workItem from="1591430859017" duration="213000" />
+      <workItem from="1591456111734" duration="2740000" />
+      <workItem from="1591460631347" duration="58000" />
+      <workItem from="1591469508168" duration="6998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="285" y="23" width="1024" height="832" key="#Project_Structure" timestamp="1591456865368">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="285" y="23" width="1024" height="832" key="#Project_Structure/0.23.1440.832@0.23.1440.832" timestamp="1591456865368" />
+    <state x="262" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591456755247">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="262" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832@0.23.1440.832" timestamp="1591456755247" />
+    <state x="594" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1591473233539">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="594" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1591473233539" />
+    <state width="1186" height="196" key="GridCell.Tab.0.bottom" timestamp="1591473972899">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591473972899" />
+    <state width="1186" height="196" key="GridCell.Tab.0.center" timestamp="1591473972898">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1591473972898" />
+    <state width="1186" height="196" key="GridCell.Tab.0.left" timestamp="1591473972897">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1591473972897" />
+    <state width="1186" height="196" key="GridCell.Tab.0.right" timestamp="1591473972898">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1591473972898" />
+    <state width="1186" height="196" key="GridCell.Tab.1.bottom" timestamp="1591473972901">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591473972901" />
+    <state width="1186" height="196" key="GridCell.Tab.1.center" timestamp="1591473972900">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1591473972900" />
+    <state width="1186" height="196" key="GridCell.Tab.1.left" timestamp="1591473972899">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1591473972899" />
+    <state width="1186" height="196" key="GridCell.Tab.1.right" timestamp="1591473972900">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1186" height="196" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1591473972900" />
+  </component>
+</project>

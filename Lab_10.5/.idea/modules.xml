@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RESTFULL_LABS.iml" filepath="$PROJECT_DIR$/.idea/RESTFULL_LABS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eregistrarwebapi/eregistrarwebapi.iml" filepath="$PROJECT_DIR$/eregistrarwebapi/eregistrarwebapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EregistrarWebapiClient/eregistrarwebapi (1).iml" filepath="$PROJECT_DIR$/EregistrarWebapiClient/eregistrarwebapi (1).iml" />
+    </modules>
+  </component>
+</project>
