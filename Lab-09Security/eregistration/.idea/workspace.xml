@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d05cebb-3643-422d-a3d9-7922983e01e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/miu/cs425/studentmgmt/controller/StudentServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/miu/cs425/studentmgmt/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/miu/cs425/studentmgmt/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/miu/cs425/studentmgmt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/miu/cs425/studentmgmt/service/EregistrarUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/secured/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/secured/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/secured/services/admin/usrmgmt/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login-with-google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/panoramic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/topicals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/public/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/public/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/public/virtualtour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/secured/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/secured/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/secured/services/admin/usrmgmt/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/newadd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/Lab-0010.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_15_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_orm_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/Screen Shot -delete byid-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/Screen Shot get-list student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/after delete -id-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/after-update-id-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/before -update-id-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/get by id-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/registornew-student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/Lab-10screenshot/search-sara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/EregistrarwebapiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/controller/HomePageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/controller/StudentRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/ClassRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/Transcript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-0010/eregistrarwebapi/src/test/java/edu/miu/cs425/studentregistrar/EregistrarwebapiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/Mystudentmgmtwebapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/controller/HomePageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/model/ClassRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/model/Transcript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/repository/ClassRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/repository/TranscriptRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/java/edu/miu/cs425/studentmgmt/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/fragements/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/fragements/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/student/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/student/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/main/resources/templates/student/newadd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/eregistration/src/test/java/edu/miu/cs425/studentmgmt/MystudentmgmtappApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/ListofStudent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/Screen Shot- Mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/Search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/addNewStudent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/after-search-abel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/before-search-abel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/check-validation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/editStudent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/studentForm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/validation-ClientSide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-009/sceenShotlab-11/while-delete-1-stu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/EStudentRegistrarWebClient1/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/EStudentRegistrarWebClient1/src/main/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/EregistrarWebApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/eregistrarwebapi/src/main/java/edu/miu/cs425/studentregistrar/model/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/studentregistrar/src/main/java/edu/miu/cs425/studentregistrar/EregistrarWebApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-10.5/studentregistrar/src/main/java/edu/miu/cs425/studentregistrar/model/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-11/lab11solutions /.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-11/lab11solutions /.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-11/lab11solutions /Question1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-11/lab11solutions /Question1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-111/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-111/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-111/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-9/eregistration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-9/eregistration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-9/eregistration/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-9/eregistration/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TESING-Lab/src/main/java/ArrayReversor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TESING-Lab/src/main/java/edu/miu/cs/425/lab-11S/Lab11/ArrayReversor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TESING-Lab/src/main/java/service/ArrayFlatternerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TESING-Lab/src/test/java/ArrayReversorNullTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TESING-Lab/src/test/java/ArrayReversorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/lab11solutions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/lab9solutions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/main/java/edu/mum/cs/cs425/lab11solutions/arrayutils/Question2/ArrayReversor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/main/java/edu/mum/cs/cs425/lab11solutions/arrayutils/Question2/service/ArrayFlattenerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/main/java/edu/mum/cs/cs425/lab11solutions/arrayutils/question1/ArrayFlattener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorNullTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorTestSuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTestNull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/src/test/java/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTestSuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/classes/edu/mum/cs/cs425/lab11solutions/arrayutils/Question2/ArrayReversor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/classes/edu/mum/cs/cs425/lab11solutions/arrayutils/Question2/service/ArrayFlattenerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/classes/edu/mum/cs/cs425/lab11solutions/arrayutils/question1/ArrayFlattener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/META-INF/lab9solutions.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorNullTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/Question2/ArrayReversorTestSuit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTestNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11solutions /Question1/target/test-classes/edu/mum/cs/cs425/lab11solutions/arrayutilstests/question1/ArrayFlattenerTestSuit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mocking/mocking/src/main/java/edu/miu/cs425/test/ArrayReversor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mocking/mocking/src/main/java/edu/miu/cs425/test/service/ArrayFlatternerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mocking/mocking/src/test/java/ArrayReversorNullTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mocking/mocking/src/test/java/ArrayReversorTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cu8WWLPbpEdcXsyXgRC5AY3zoe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.miu.cs425.studentmgmt.repository" />
+      <recent name="edu.miu.cs425.studentmgmt.controller" />
+      <recent name="edu.miu.cs425.studentmgmt.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Mystudentmgmtwebapp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mystudentmgmtapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.miu.cs425.studentmgmt.Mystudentmgmtwebapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d05cebb-3643-422d-a3d9-7922983e01e2" name="Default Changelist" comment="" />
+      <created>1591367149479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591367149479</updated>
+      <workItem from="1591367153923" duration="9005000" />
+      <workItem from="1591411600517" duration="673000" />
+      <workItem from="1591422022867" duration="1560000" />
+      <workItem from="1591430859017" duration="213000" />
+      <workItem from="1591480184786" duration="198000" />
+      <workItem from="1591560268553" duration="685000" />
+      <workItem from="1591822506473" duration="4816000" />
+      <workItem from="1591839137125" duration="8289000" />
+      <workItem from="1591850048245" duration="2674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="614" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1591842114361">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="614" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1591842114361" />
+    <state x="782" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591841421572">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="782" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.832@0.23.1440.832" timestamp="1591841421572" />
+    <state width="1094" height="239" key="GridCell.Tab.0.bottom" timestamp="1591854683512">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591854683512" />
+    <state width="1094" height="239" key="GridCell.Tab.0.center" timestamp="1591854683511">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1591854683511" />
+    <state width="1094" height="239" key="GridCell.Tab.0.left" timestamp="1591854683510">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1591854683510" />
+    <state width="1094" height="239" key="GridCell.Tab.0.right" timestamp="1591854683511">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1591854683511" />
+    <state width="1094" height="239" key="GridCell.Tab.1.bottom" timestamp="1591854683514">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591854683514" />
+    <state width="1094" height="239" key="GridCell.Tab.1.center" timestamp="1591854683513">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1591854683513" />
+    <state width="1094" height="239" key="GridCell.Tab.1.left" timestamp="1591854683512">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1591854683512" />
+    <state width="1094" height="239" key="GridCell.Tab.1.right" timestamp="1591854683513">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1094" height="239" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1591854683513" />
+  </component>
+</project>
